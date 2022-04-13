@@ -28,7 +28,7 @@ function App() {
           <div className="mt-10 first-letter:my-3 tracking-widest text-neon-green text-md font-['Poppins']">
             ADVICE #{id}
           </div>
-          <div className="mt-6 text-light-cyan font-manrope font-extrabold text-[28px] text-center px-24 desktop:px-5">
+          <div className="mt-6 text-light-cyan font-manrope font-extrabold text-[28px] text-center px-20 desktop:px-5">
             {quote !== "" && `"${quote}"`}
           </div>
           <div className="mt-8">
@@ -42,16 +42,6 @@ function App() {
             <svg className="absolute top-1/2 left-1/2" style={{transform: 'translate(-50%, -50%)'}} width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M20 0H4a4.005 4.005 0 0 0-4 4v16a4.005 4.005 0 0 0 4 4h16a4.005 4.005 0 0 0 4-4V4a4.005 4.005 0 0 0-4-4ZM7.5 18a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm0-9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm4.5 4.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm4.5 4.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm0-9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Z" fill="#202733"/></svg>
             </button>
           </div>
-
-
-
-{/*           
-          <button onClick={fetchQuote} className="relative top-8 w-16 h-16 bg-neon-green rounded-full group">
-            <div className="relative">
-              <svg className="absolute top-1/2 left-1/2" style={{transform: 'translate(-50%, -50%)'}} width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M20 0H4a4.005 4.005 0 0 0-4 4v16a4.005 4.005 0 0 0 4 4h16a4.005 4.005 0 0 0 4-4V4a4.005 4.005 0 0 0-4-4ZM7.5 18a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm0-9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm4.5 4.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm4.5 4.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm0-9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Z" fill="#202733"/></svg>  
-            </div>
-            <div className="bg-black absolute -inset-2"></div>
-          </button> */}
         </Card>
       </div>
     </div>
